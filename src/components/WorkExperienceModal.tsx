@@ -29,26 +29,6 @@ const WorkExperienceModal: React.FC<WorkExperienceModalProps> = ({ isOpen, onClo
                     </div>
 
                     <div className="experience-item">
-                        <h4>Full-Stack Developer</h4>
-                        <p><strong>Company:</strong> A Star Technology Co., Ltd, Bangkok</p>
-                        <p><strong>Period:</strong> DEC 2023 – JULY 2024</p>
-                        <div className="experience-text">
-                            <p>PEA Request Solar Cell Request Form Project Flow Design</p>
-                            <p>EasyPDPA Thailand https://easypdpathailand.com</p>
-                        </div>
-                    </div>
-
-                    <div className="experience-item">
-                        <h4>Back-End Developer</h4>
-                        <p><strong>Company:</strong> Yggdrazil Group Public Co., Ltd, Bangkok</p>
-                        <p><strong>Period:</strong> JULY 2023 – NOV 2023</p>
-                        <div className="experience-text">
-                            <p>Developing Back End Service Architecture</p>
-                            <p>Working alongside Unity Developer for service features</p>
-                        </div>
-                    </div>
-
-                    <div className="experience-item">
                         <h4>Franchisee</h4>
                         <p><strong>Company:</strong> Bake A Wish, Union Mall Branch</p>
                         <p><strong>Period:</strong> 2018 - PRESENT</p>
@@ -57,6 +37,27 @@ const WorkExperienceModal: React.FC<WorkExperienceModalProps> = ({ isOpen, onClo
                             <p>Maximizing customer satisfaction</p>
                         </div>
                     </div>
+
+                    <div className="experience-item">
+                        <h4>Back-End Developer</h4>
+                        <p><strong>Company:</strong> Yggdrazil Group Public Co., Ltd, Bangkok</p>
+                        <p><strong>Period:</strong> JULY 2023 – JUL 2024</p>
+                        <div className="experience-text">
+                            <p>Developing Back End Service Architecture</p>
+                            <p>Working alongside Unity Developer for service features</p>
+                        </div>
+                    </div>
+
+                    <div className="experience-item">
+                        <h4>Full-Stack Developer</h4>
+                        <p><strong>Company:</strong> A Star Technology Co., Ltd, Bangkok</p>
+                        <p><strong>Period:</strong> JULY 2022 – JULY 2023</p>
+                        <div className="experience-text">
+                            <p>PEA Request Solar Cell Request Form Project Flow Design</p>
+                            <p>EasyPDPA Thailand https://easypdpathailand.com</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
