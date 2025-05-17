@@ -8,7 +8,7 @@ function App() {
     const [isImageModalOpen, setIsImageModalOpen] = useState(false);
     const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
     const [isWorkExperienceModalOpen, setIsWorkExperienceModalOpen] = useState(false);
-
+    const appVersion = "v1.0.0";
 
     const openImageModal = () => {
         setIsImageModalOpen(true);
@@ -37,12 +37,15 @@ function App() {
     return (
         <div className="container">
             <div className="profile-section">
-                <img
-                    src="./myself-reduce.jpg"
-                    className="profile-photo"
-                    alt="My Profile Photo"
-                    onClick={openImageModal}
-                />
+                <div className="profile-image-container">
+                    <img
+                        src="./myself-reduce.jpg"
+                        className="profile-photo"
+                        alt="My Profile Photo"
+                        onClick={openImageModal}
+                    />
+                    <div className="version-badge">{appVersion}</div>
+                </div>
                 <div>
                     <button className="profile-button" onClick={openProfileModal}>Profile</button>
                     <button className="profile-button" onClick={openWorkExperienceModal}>Work Experience</button>
