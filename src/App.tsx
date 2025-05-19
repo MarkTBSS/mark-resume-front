@@ -8,7 +8,7 @@ function App() {
     const [isImageModalOpen, setIsImageModalOpen] = useState(false);
     const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
     const [isWorkExperienceModalOpen, setIsWorkExperienceModalOpen] = useState(false);
-    const appVersion = "v1.0.2";
+    const appVersion = "v1.0.3";
 
     const openImageModal = () => {
         setIsImageModalOpen(true);
